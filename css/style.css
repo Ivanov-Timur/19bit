@@ -1,0 +1,257 @@
+/*header*/
+body{
+  min-width: 1170px;
+}
+header{
+  position: relative;
+  margin: 0 auto;
+  width: 1170px;
+  height: 175px;
+  background-image: url(../img/head.png);
+  background-size: 100%;
+  z-index: 2;
+}
+.head{
+  width: 665px;
+  margin: 0 auto;
+  padding-top: 30px;
+  
+}
+.button, .logo{
+  display: inline-block;
+  vertical-align: top;
+}
+.button p{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.button a{
+  width: 215px;
+  height: 52px;
+  margin-top: 65px;
+  padding: 3px 7px 7px;
+  border: 2px solid white;
+  border-radius: 3px;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: block;
+}
+.button p{
+  font-size: 32px;
+  padding-left: 8px;
+  padding-top:3px;
+  font-family: "HelveticaNeueCyr";
+  font-weight: 100;
+  color: rgb(245, 245, 245);
+}
+.button img{
+  float: right;
+}
+.button:last-child img{
+  float: left;
+}
+.logo{
+  margin-right: 31px;
+  margin-left: 31px;
+}
+/*body*/
+.body{
+  width: 1125px;
+  margin: 0 auto;
+  margin-top: -13px;
+  padding: 18px 40px;
+  box-sizing: border-box;
+  background-color: #2f3f4f;
+  position: relative;
+  z-index: 1;
+}
+.body h2{
+  font-size: 50px;
+  font-family: "MyriadPro";
+  font-weight: 700;
+  color: #f99200;
+  line-height: 1.2;
+}
+.body p{
+  font-size: 21px;
+  font-family: "MyriadPro";
+  color: rgb(245, 245, 245);
+  line-height: 1.2;
+  font-style: italic;
+}
+.body p:nth-child(3){
+  margin-top: 40px;
+  display: block;
+  font-style: normal;
+}
+.people{
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.person a{
+  width: 100%;
+  display: block;
+  margin-bottom: 35px;
+}
+.person:after{
+  clear: both;
+  content: ' ';
+  display: block;
+}
+.person img{
+  float: right;
+}
+.name{
+  float: right;
+  display: block;
+  padding-right: 32px;
+}
+.name p{
+  font-size: 21px;
+  font-family: "MyriadPro";
+  color: rgb(249, 146, 0);
+  font-style: normal;
+  text-decoration: underline;
+  line-height: 2;
+}
+.right{
+  margin-left: 35px;
+}
+.right img, 
+.right .name{
+  float: left;
+}
+.right .name{
+  padding-right: 0px;
+  padding-left: 32px;
+}
+
+/*footer*/
+footer{
+  width: 1125px;
+  margin: 0 auto;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  height: 45px;
+  background-color: #231f20;
+  border-bottom: 1px solid #302c2d;
+
+}
+footer:after{
+  clear: both;
+  content: '';
+  display: block;
+}
+.follow{
+  float: left;
+}
+.follow p, 
+.follow a{
+  display: inline-block;
+  vertical-align: baseline;
+}
+.follow p{
+  font-size: 24px;
+  font-family: "HelveticaNeueCyr";
+  color: rgb(254, 254, 254);
+  line-height: 1.2;
+  vertical-align: 20%;
+}
+.follow a{
+  margin-left: 12px;
+}
+.copy{
+  float: right;
+}
+.copy p{
+  font-size: 14px;
+  font-family: "HelveticaNeueCyr";
+  color: rgb(254, 254, 254);
+  line-height: 1.2;
+  color: #9a9a9a;
+}
+.left-column, 
+.right-column{
+  display: inline-block;
+  vertical-align: top;
+}
+.right-column{
+  width: 610px;
+  margin-left: 18px;
+  margin-bottom: 50px;
+}
+.right-column h2{
+  font-size: 40px;
+  text-align: center;
+}
+.right-column h3{
+  margin-left: 30px;
+  font-size: 22px;
+  font-family: "MyriadPro";
+  color: white;
+  line-height: 2;
+}
+.body .right-column p{
+  margin-top: 0px;
+  font-size: 18px;
+  font-family: "MyriadPro";
+  color: white;
+  font-style: normal;
+}
+.buttons{
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+[alt="next"]{
+  transform: rotate(180deg);
+}
+/*contact*/
+.body form p{
+  font-style: normal;
+  display: inline-block;
+  margin-right: 209px;
+  margin-bottom: 10px;
+}
+input{
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+textarea{
+  width: 642px;
+  height: 200px;
+  resize: none;
+}
+[type="submit"]{
+  width: 152px;
+  height: 24px;
+  border: 0;
+  border-radius: 5px;
+  color: #343434;
+  font-family: MyriadPro;
+  font-size: 18px;
+  font-weight: 400;
+  background-image: linear-gradient(180deg, #f99200 0%, #e07004 100%);
+}
+.craft img{
+  float: left;
+  margin-right: 20px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+.craft h2{
+  margin-top: 40px;
+  line-height: 0px;
+}
+.craft img:nth-child(4){
+  margin-top: 20px;
+  float: right;
+}
+.clearfix{
+  clear: both;
+}
